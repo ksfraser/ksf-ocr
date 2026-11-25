@@ -1,0 +1,19 @@
+{
+    "name": "ksfraser/ksf-ocr",
+    "description": "OCR engine interface with a Tesseract CLI adapter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KS Fraser"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ksfraser\\Ocr\\": "src/Ksfraser/Ocr/"
+        }
+    }
+}
